@@ -1,0 +1,99 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fefefe;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #00bcd4, #fdd835, #c0c0c0);
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 70px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.video iframe {
+  width: 80%;
+  height: 300px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  background-color: #00bcd4;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0288d1;
+}
+
+.cta-button {
+  background-color: #fdd835;
+  color: #333;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+footer {
+  background-color: #00bcd4;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
